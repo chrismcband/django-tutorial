@@ -1,0 +1,7 @@
+<h1>Try a 30 day free trial</h1>
+<p>No credit card, full functionality, all the support you need, upgrade when you like (and affordable <a href="http://www.stickyworld.com/pricing">pricing plans</a> for all sizes)</p>
+
+<form action="/signup/questions" method="post">{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Create World" />
+</form>
